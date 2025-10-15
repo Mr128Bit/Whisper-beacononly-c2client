@@ -3,6 +3,8 @@
 **Short summary:**  
 This repository contains analysis notes, IOCs, and detection guidance for a sample we refer to as **Whisper** - a minimal **HTTP beacon-only C2 client**. The sample registers (optionally) via `/add.php` and periodically issues keep‑alive requests to `/ping.php`. The analyzed sample itself does not implement command execution, but the C2 operator has been observed delivering a PE (e.g. `calc.exe`) to selected targets on manual approval.
 
+### PASSWORD FOR ARCHIVE IS: Mr128Bit
+
 ---
 
 ## Table of contents
